@@ -2,7 +2,7 @@
 
 Recreate the joys of Office Assistant from the comfort of the Python interpreter.
 
-## How to use
+## How to use?
 
 ```python3
 >>> import coding_assistant
@@ -24,7 +24,9 @@ ZeroDivisionError: division by zero
 
 ## How to install?
 
-Hopefully pip soon?
+```bash
+python3 -m pip install coding-assistant
+```
 
 ## Q&A
 

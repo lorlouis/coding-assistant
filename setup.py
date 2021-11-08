@@ -7,10 +7,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="my_package",
-    version="0.0.1",
+    name="coding-assistant",
+    version="0.0.2",
     author="Louis Sven Goulet",
-    author_email="louis dot sven at gmail dot com",
+    author_email="louis.sven@gmail.com",
     description=(
         "Recreate the joys of Office Assistant from "
         "the comfort of the Python interpreter"),
@@ -18,10 +18,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/lorlouis/coding-assistant",
     packages=setuptools.find_packages(),
-    install_requires=['sys'],
+    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
-        # TODO find a license
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.9',
