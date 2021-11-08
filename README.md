@@ -1,6 +1,6 @@
 # Coding Assistant 📎
 
-Recreate the joys of Office Assistant in the comfort of the Python interpreter.
+Recreate the joys of Office Assistant from the comfort of the Python interpreter.
 
 ## How to use
 
