@@ -44,4 +44,4 @@ Don't.
 
 > Will you get sued by Microsoft?
 
-Hopefully my ascii art is ugly enough I can claim it's an original character.
+Hopefully my ascii art is ugly enough that I can claim it's an original character.
