@@ -29,10 +29,17 @@ Hopefully pip soon?
 ## Q&A
 
 > Is it possible to have other, maybe custom, assistants?
+
 Not at the moment but if you can draw ascii art please submit a PR.
+
 > Will this package break `try` `except` blocks?
+
 No it only changes the way exceptions are printed not the actual exception.
+
 > Is this code "production ready"
+
 Don't.
+
 > Will you get sued by Microsoft?
+
 Hopefully my ascii art is ugly enough I can claim it's an original character.
