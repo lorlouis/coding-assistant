@@ -1,5 +1,11 @@
 # type: ignore
 import sys
+import traceback
+
+
+class AssistantException(Exception):
+    ...
+
 
 _old_hook = sys.excepthook
 

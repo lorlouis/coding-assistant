@@ -25,4 +25,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.9',
+    entry_points={'console_scripts': [
+        'assistant = coding_assistant.__main__:cli',
+        ],
+    }
 )
