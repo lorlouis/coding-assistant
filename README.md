@@ -38,7 +38,7 @@ Not at the moment but if you can draw ascii art please submit a PR.
 
 No it only changes the way exceptions are printed not the actual exception.
 
-> Is this code "production ready"
+> Is this code "production ready"?
 
 Don't.
 
