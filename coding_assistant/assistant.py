@@ -1,7 +1,6 @@
 # type: ignore
 import sys
 
-
 _old_hook = sys.excepthook
 _character = ""
 
