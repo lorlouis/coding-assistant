@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="coding-assistant",
-    version="0.0.2",
+    version="0.1.0",
     author="Louis Sven Goulet",
     author_email="louis.sven@gmail.com",
     description=(
@@ -24,5 +24,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    entry_points={'console_scripts': [
+        'coding-assistant = coding_assistant.cli:cli',
+        'clipy = coding_assistant.cli:cli',
+        ],
+    },
     python_requires='>=3.9',
 )

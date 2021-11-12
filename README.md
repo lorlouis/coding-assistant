@@ -22,6 +22,30 @@ ZeroDivisionError: division by zero
 >>>
 ```
 
+You can also invoke coding assistant as a python wrapper so that
+even errors happening in the compile phase (ie bad imports and the likes)
+will be handeled by coding assistant.
+
+```bash
+$ coding-assistant bad_import.py
+Traceback (most recent call last):
+  File "~/.local/bin/coding-assistant", line 8, in <module>
+    sys.exit(cli())
+  File "~/.local/lib/python3.9/site-packages/coding_assistant/cli.py", line 23, in cli
+    exec(f.read(), {
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'nonexistant_module'
+\_______________________________________________________/
+ _-_  | /
+/_  \ |/
+(o)(o)
+| | |
+| \/ /
+\    |
+ ¯--¯
+$
+```
+
 ## How to install?
 
 ```bash
@@ -38,7 +62,7 @@ Not at the moment but if you can draw ascii art please submit a PR.
 
 No it only changes the way exceptions are printed not the actual exception.
 
-> Is this code "production ready"
+> Is this code "production ready"?
 
 Don't.
 
